@@ -1,16 +1,35 @@
 # odoo_app
 
-A new Flutter project.
+## Getting Started  
 
-## Getting Started
+### Prerequisites  
+Ensure you have the following installed before running the project:  
 
-This project is a starting point for a Flutter application.
+1. **Flutter SDK** (Version: Flutter 3.19.5)  
+2. **Xcode** (for iOS) and **Android Studio** (for Android)  
+3. **CocoaPods**, **Java**, **Gradle**  
+4. Any IDE (e.g., Visual Studio Code, Android Studio, Xcode)  
 
-A few resources to get you started if this is your first Flutter project:
+### Installation  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#### iOS Setup:  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Install all dependencies by running:  
+
+    ```sh
+    flutter pub get
+    ```
+
+2. Build the iOS project:  
+    - Navigate to the `ios` folder:  
+
+      ```sh
+      cd ios
+      ```
+
+    - Install CocoaPods dependencies:  
+
+      ```sh
+      pod install
+      ```
+
